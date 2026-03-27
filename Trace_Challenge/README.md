@@ -125,7 +125,7 @@ The script performs:
 - optional MP4 export
 
 This mirrors the same logic used in the original MATLAB approach, while providing a reproducible Python implementation.
-
+The indices used in the Python implementation correspond to the position of each GPIO signal within the CSV file after removing the timestamp column. They do not represent the GPIO numbers themselves.
 ---
 
 ## Visualization
